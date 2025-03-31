@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Serilog Sink that sends log events to IBM Cloud Logs https://www.ibm.com/products/cloud-logs</Description>
+    <PackageId>Serilog.Sinks.IBMLogs</PackageId>
+    <PackageTags>ibm-cloud;serilog;sink;logging;logs</PackageTags>
+    <PackageIconUrl>http://serilog.net/images/serilog-sink-nuget.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/iojancode/Serilog.Sinks.IBMLogs</RepositoryUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Version>1.0.0</Version>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.Http" Version="8.0.0" />
+    <None Include="README.md" Pack="true" PackagePath="." />
+  </ItemGroup>
+
+</Project>
