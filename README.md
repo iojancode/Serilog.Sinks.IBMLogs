@@ -6,6 +6,8 @@ Serilog Sink that sends log events to IBM Cloud Logs <https://www.ibm.com/produc
 
 ## Getting started ##
 
+First, create an IAM API key. To send logs, you need an API key linked to a Service ID, configured for the 'Cloud Logs' service with the 'Sender' role.
+
 Enable the sink and log:
 
 ```csharp
