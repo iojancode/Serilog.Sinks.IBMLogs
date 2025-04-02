@@ -1,15 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT'">net462;net48</TargetFrameworks>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
     <Description>Serilog Sink that sends log events to IBM Cloud Logs https://www.ibm.com/products/cloud-logs</Description>
     <PackageId>Serilog.Sinks.IBMLogs</PackageId>
     <PackageTags>ibm-cloud;serilog;sink;logging;logs</PackageTags>
     <PackageIconUrl>http://serilog.net/images/serilog-sink-nuget.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/iojancode/Serilog.Sinks.IBMLogs</RepositoryUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>1.0.1</Version>    
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.2</Version>    
   </PropertyGroup>
 
   <ItemGroup>
