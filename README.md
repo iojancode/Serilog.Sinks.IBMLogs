@@ -2,7 +2,7 @@
 
 Serilog Sink that sends log events to IBM Cloud Logs <https://www.ibm.com/products/cloud-logs>
 
-**Package** - [Serilog.Sinks.IBMLogs](http://nuget.org/packages/serilog.sinks.ibmlogs) | **Platforms** - netstandard2.0
+**Package** - [Serilog.Sinks.IBMLogs](http://nuget.org/packages/serilog.sinks.ibmlogs) | **Platforms** - netstandard2.0, .NET Framework 4.6.2+
 
 ## Getting started ##
 

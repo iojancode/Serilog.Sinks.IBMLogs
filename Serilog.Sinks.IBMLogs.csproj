@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT'">net462;net48</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Description>Serilog Sink that sends log events to IBM Cloud Logs https://www.ibm.com/products/cloud-logs</Description>
     <PackageId>Serilog.Sinks.IBMLogs</PackageId>
     <PackageTags>ibm-cloud;serilog;sink;logging;logs</PackageTags>
